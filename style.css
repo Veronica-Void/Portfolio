@@ -60,7 +60,20 @@ a:link{
 }
 /* main intro, photo, and description */
 main{
-    margin: 30px;
+    margin: 20px;
     padding: 30px;
 }
+#hello{
+    background-color: bisque;
+    height: 500px;
+    text-align: center;
+}
+#hello img{
+    float: left;
+    padding-left: 20px;
+}
 /* footer */
+footer{
+    margin: 20px;
+    padding: 20px;
+}
