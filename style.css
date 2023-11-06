@@ -3,10 +3,33 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/* body*/
 body{
     display: block;
     margin: 10px;
+    /* background-image: url(Resources/insertimagehere); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 20%; */
 }
+
+header .welcome{
+
+    color: beige;
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 3px;
+    margin: 20px;
+    height: 90px;
+    font-size: xx-large;
+}
+header{
+    background-image: url(/Resources/giphy.gif);
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+
 /* page navigation bar */
 nav{
     margin: 20px;
@@ -30,7 +53,14 @@ a{
 }
 a:hover{
     color: cornflowerblue;
+    border-bottom: solid salmon 5px;
 }
 a:link{
     text-decoration: none;
 }
+/* main intro, photo, and description */
+main{
+    margin: 30px;
+    padding: 30px;
+}
+/* footer */
