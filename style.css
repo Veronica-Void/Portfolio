@@ -13,8 +13,8 @@ body{
     /* opacity: 20%; */
 }
 
+/* Introduction page Header with bg photo */
 header .welcome{
-
     color: beige;
     text-align: center;
     font-family: monospace;
@@ -22,18 +22,23 @@ header .welcome{
     margin: 20px;
     height: 90px;
     font-size: xx-large;
+    height: 200px;
 }
 header{
     background-image: url(/Resources/giphy.gif);
     background-repeat: repeat-x;
     background-size: cover;
+    height: 200px;
+}
+.head-text{
+    padding-top: 60px;
 }
 
-
-/* page navigation bar */
+/* all page navigation bar */
 nav{
     margin: 20px;
     padding: 15px;
+    height: 200px;
 }
 ul{
     list-style-type: none;
@@ -58,22 +63,29 @@ a:hover{
 a:link{
     text-decoration: none;
 }
-/* main intro, photo, and description */
-main{
-    margin: 20px;
+
+/* introduction page main intro, photo, and description */
+main.index{
+    /* margin: 20px; */
     padding: 30px;
+    background-color: bisque;
 }
 #hello{
-    background-color: bisque;
     height: 500px;
     text-align: center;
 }
 #hello img{
-    float: left;
+    /* float: left; */
     padding-left: 20px;
 }
-/* footer */
+
+
+/* introduction page footer */
 footer{
-    margin: 20px;
+    margin-top: 20px;
     padding: 20px;
+    background-color: cadetblue;
+}
+#foot{
+    height: 500px;
 }
