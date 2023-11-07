@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 /* body*/
 body{
     display: block;
@@ -80,7 +81,6 @@ main.index{
     padding-left: 20px;
 }
 
-
 /* introduction page footer */
 footer{
     margin-top: 20px;
@@ -92,12 +92,16 @@ footer{
 }
 
 /* projects page */
+main#project-main{
+    min-height: 800px;
+}
 #project-main h3{
     color: white;
     font-size: x-large;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 200px;
 }
 #project-table{
     display: flex;
@@ -107,9 +111,13 @@ footer{
     margin: auto;
     padding: 10px;
     border: dotted white 5px;
-    border-radius: 60px;
+    border-radius: 50px;
     width: fit-content;
     font-size: xx-large;
     margin-top: 30px;
 }
+
 /* contacts page */
+main#contact-main{
+    min-height: 800px;
+}
