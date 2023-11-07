@@ -10,7 +10,7 @@ body{
     /* background-image: url(Resources/insertimagehere); */
     background-repeat: no-repeat;
     background-size: cover;
-    /* opacity: 20%; */
+    background-color: black;
 }
 
 /* Introduction page Header with bg photo */
@@ -32,6 +32,7 @@ header{
 }
 .head-text{
     padding-top: 60px;
+    color: white;
 }
 
 /* all page navigation bar */
@@ -53,7 +54,7 @@ li{
     font-size: xx-large;
 }
 a{
-    color: black;
+    color: white;
     outline: none;
 }
 a:hover{
@@ -87,7 +88,7 @@ footer{
     background-color: cadetblue;
 }
 #foot{
-    height: 500px;
+    height: 95px;
 }
 
 /* projects page */
