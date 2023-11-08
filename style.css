@@ -3,40 +3,37 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 /* body*/
 body{
-    display: block;
     margin: 10px;
-    /* background-image: url(Resources/insertimagehere); */
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
 }
 
 /* Introduction page Header with bg photo */
-#welcome{
+header{
+    background-image: url(/Resources/giphy.gif);
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+header .welcome{
     color: beige;
     text-align: center;
     font-family: monospace;
     letter-spacing: 3px;
     margin: 20px;
+    height: 200px;
     font-size: xx-large;
-    height: 200px;
-}
-header{
-    background-image: url(/Resources/giphy.gif);
-    background-repeat: repeat-x;
-    background-size: cover;
-    height: 200px;
-    padding: 20px;
-
+    text-align: center;
 }
 .head-text{
+    display: flex;
+    flex-direction: row;
     padding: 60px;
-    color: white;
-    text-align: center;
-    width: max-content;
+
+    /* margin-left: 30%;
+    margin-right: 30%; */
 }
 
 /* all page navigation bar */
@@ -63,7 +60,7 @@ a{
 }
 a:hover{
     color: cornflowerblue;
-    border-bottom: solid salmon 5px;
+    border-bottom: solid rgb(250, 114, 245) 5px;
 }
 a:link{
     text-decoration: none;
@@ -80,12 +77,12 @@ main.index{
 #hello{
     height: fit-content;
     font-size: x-large;
-    /* text-align: center; */
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: fit-content;
+    margin-left: 5%;
 }
 #hello img{
     display: flex;
@@ -109,14 +106,24 @@ main.index{
 }
 #hello-desc p{
     font-size: x-large;
+    align-content:  space-evenly;
 }
 #hello-why{
     color: white;
     height: fit-content;
     width: fit-content;
     margin-left: auto;
-    display: flex;
-    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+}
+#hello-me{
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    margin-left: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-right: 2%;
 }
 /* introduction page footer */
 footer{
@@ -157,4 +164,31 @@ main#project-main{
 /* contacts page */
 main#contact-main{
     min-height: 800px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+#name-contact h1{
+    font-size: xx-large;
+    border-bottom: solid white 2px;
+}
+#refs h1{
+    font-size: xx-large;
+    border-bottom: solid white 2px;
+}
+#name-contact{
+    font-size: xx-large;
+    margin: auto;
+}
+#refs{
+    font-size: xx-large;
+    margin-top: 2%;
+}
+#ref-head{
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+#contact-head{
+    text-decoration: underline;
+    padding-bottom: 10px;
 }
