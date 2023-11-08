@@ -15,13 +15,12 @@ body{
 }
 
 /* Introduction page Header with bg photo */
-header .welcome{
+#welcome{
     color: beige;
     text-align: center;
     font-family: monospace;
     letter-spacing: 3px;
     margin: 20px;
-    height: 90px;
     font-size: xx-large;
     height: 200px;
 }
@@ -30,10 +29,14 @@ header{
     background-repeat: repeat-x;
     background-size: cover;
     height: 200px;
+    padding: 20px;
+
 }
 .head-text{
-    padding-top: 60px;
+    padding: 60px;
     color: white;
+    text-align: center;
+    width: max-content;
 }
 
 /* all page navigation bar */
@@ -66,21 +69,55 @@ a:link{
     text-decoration: none;
 }
 
-/* introduction page main intro, photo, and description */
+/* main intro, photo, and description */
 main.index{
-    /* margin: 20px; */
-    padding: 30px;
-    background-color: bisque;
+    padding: 20px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
 }
 #hello{
-    height: 500px;
-    text-align: center;
+    height: fit-content;
+    font-size: x-large;
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
 }
 #hello img{
-    /* float: left; */
-    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 10px;
 }
-
+#hello h3, h1{
+    width: fit-content;
+}
+#hello-desc{
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#hello-desc p{
+    font-size: x-large;
+}
+#hello-why{
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
 /* introduction page footer */
 footer{
     margin-top: 20px;
